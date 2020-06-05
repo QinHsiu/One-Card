@@ -1,0 +1,83 @@
+/*header*/
+.header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 60px;
+    position: fixed;
+    top:0;
+    z-index:1000;
+    line-height: 80px;
+    -moz-box-shadow: 0 1px 30px #ECECEC;
+    box-shadow: 0 1px 30px #ECECEC;
+}
+div>ul>li{
+    height: 80px;
+    list-style: none;
+}
+div>a{
+    font-size: 15px;
+    line-height: 80px;
+    color:#46b8da;
+}
+div>ul>li>a:hover{
+    border-radius:5px;
+    border-bottom: hidden;
+    border-color:#46b8da ;
+}
+ul>li{
+    list-style: none;
+}
+.logo{
+    height: 50px;
+    position: relative;
+}
+.word{
+    font-size: 30px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.ti{
+
+}
+
+/*picture*/
+.image{
+    width: 100%;
+}
+.about-img{
+    width: 100%;
+    margin-bottom: 0;
+}
+.new-img{
+    width: 100%;
+}
+
+
+
+.i1{
+    background: url("../images/icon/news.png");
+    background-color: #1b6d85;
+    width: 1.8%;
+    height: 10%;
+}
+
+/*设置字体颜色*/
+div>p{
+    color: white;
+}
+div>p>a{
+    color: white;
+}
+/*设置字体行间距*/
+div>a>p{
+    line-height: 25px;
+}
+/*设置footer部分*/
+.footer{
+    height: 300px;
+    background-color: #46b8da;
+    background:url("../images/oc_bg3.png");
+    width: 100%;
+}

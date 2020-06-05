@@ -1,0 +1,1436 @@
+[ 2020-05-16T19:39:04+08:00 ] ::1 /Card-system/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015989s ]
+
+[ 2020-05-16T19:39:09+08:00 ] ::1 /Card-system/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2020-05-16T19:39:09+08:00 ] ::1 /Card-system/Home/Public/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2020-05-16T19:39:34+08:00 ] ::1 /Card-system/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `oc_student` WHERE `username` = 'QinHsiu' AND `password` = '12345678' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2020-05-16T19:39:36+08:00 ] ::1 /Card-system/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2020-05-16T19:39:40+08:00 ] ::1 /Card-system/View/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-05-16T19:39:44+08:00 ] ::1 /Card-system/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013118s ]
+SQL: SHOW COLUMNS FROM `oc_notice` [ RunTime:0.0319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_notice` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_notice` LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014284s ]
+
+[ 2020-05-16T19:39:55+08:00 ] ::1 /Card-system/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2020-05-16T19:40:08+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 127 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 152 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 175 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 199 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2020-05-16T19:44:03+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 127 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 149 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 175 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 199 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002210s ]
+
+[ 2020-05-16T19:44:23+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 127 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 149 行.
+NOTIC: [8] Undefined variable: data C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 175 行.
+NOTIC: [8] Undefined variable: show C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 199 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2020-05-16T20:04:34+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1146:Table 'db_card.il_user' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.truename as truename FROM oc_email t1 left join il_user as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 ) 
+ERR: 1146:Table 'db_card.il_user' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.truename as truename FROM oc_email t1 left join il_user as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 ) 
+
+[ 2020-05-16T20:06:42+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1146:Table 'db_card.il_user' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.truename as truename FROM oc_email t1 left join il_user as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 ) 
+ERR: 1146:Table 'db_card.il_user' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.truename as truename FROM oc_email t1 left join il_user as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 ) 
+
+[ 2020-05-16T20:06:46+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2020-05-16T20:07:45+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2020-05-16T20:07:46+08:00 ] ::1 /Card-system/Home/Back/sendBox
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+ERR: 非法操作:sendBox
+
+[ 2020-05-16T20:08:00+08:00 ] ::1 /Card-system/Home/Back/sendBox
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+ERR: 非法操作:sendBox
+
+[ 2020-05-16T20:08:04+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2020-05-16T20:08:08+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0491s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-05-16T20:08:35+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0783s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2020-05-16T20:08:54+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0155s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2020-05-16T20:09:12+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0336s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2020-05-16T20:09:25+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0513s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2020-05-16T20:09:38+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0216s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2020-05-16T20:10:01+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0388s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2020-05-16T20:12:14+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0328s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2020-05-16T20:12:33+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0507s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2020-05-16T20:12:58+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0486s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2020-05-16T20:13:54+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0385s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2020-05-16T20:14:12+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0144s ]
+SQL: SELECT `id`,`truename` FROM `oc_student` WHERE ( id != 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2020-05-16T20:14:19+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0518s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2020-05-16T20:14:36+08:00 ] ::1 /Card-system/Home/Back/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+ERR: 非法操作:send
+
+[ 2020-05-16T20:16:04+08:00 ] ::1 /Card-system/Home/Back/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+ERR: 非法操作:send
+
+[ 2020-05-16T20:16:08+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0461s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2020-05-16T20:16:23+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+ERR: 1146:Table 'db_card.oc_back' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oc_back`
+ERR: 1146:Table 'db_card.oc_back' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oc_back`
+
+[ 2020-05-16T20:16:53+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0498s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2020-05-16T20:16:56+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0183s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-05-16T20:17:13+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0264s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Upload.class.php 第 176 行.
+SQL: INSERT INTO `oc_email` (`to_id`,`title`,`content`,`file`,`hasfile`,`filename`,`from_id`,`addtime`) VALUES ('3','QinHsiu的博客','hello!','/Public/Upload/2020-05-16/5ebfd9c90fa45.sql','1','移动办公自动化系统.sql','1','2020-05-16') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2020-05-16T20:17:16+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2020-05-16T20:17:18+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2020-05-16T20:18:20+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2020-05-16T20:24:21+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2020-05-16T20:25:33+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-05-16T20:28:08+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2020-05-16T20:28:54+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2020-05-16T20:28:58+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0234s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-05-16T20:29:03+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0377s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2020-05-16T20:31:05+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0502s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin` WHERE ( id != 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2020-05-16T20:31:09+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0147s ]
+SQL: SELECT `id`,`truename` FROM `oc_admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2020-05-16T20:31:44+08:00 ] ::1 /Card-system/Home/Back/sendEmail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0339s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Upload.class.php 第 176 行.
+SQL: INSERT INTO `oc_email` (`to_id`,`title`,`content`,`file`,`hasfile`,`filename`,`from_id`,`addtime`) VALUES ('1','QinHsiu的博客','how about you!','/Public/Upload/2020-05-16/5ebfdd30bdd47.txt','1','hosts.txt','1','2020-05-16') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2020-05-16T20:31:48+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 132 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2020-05-16T20:31:50+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 132 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2020-05-16T20:34:49+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 132 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2020-05-16T20:34:54+08:00 ] ::1 /Card-system/Home/Back/del/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0152s ]
+SQL: DELETE FROM `oc_email` WHERE `id` = 8 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2020-05-16T20:34:58+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2020-05-16T20:35:58+08:00 ] ::1 /Card-system/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index:  C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\phpStudy\WWW\Card-system\Application\Admin\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `oc_email` [ RunTime:0.0527s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_admin as t2 on t1.to_id = t2.id  WHERE ( t1.from_id = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_email` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT t1.*,t2.truename as truename FROM oc_email t1 left join oc_student as t2 on t1.from_id = t2.id  WHERE ( t1.to_id = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 181 行.
+NOTIC: [8] Undefined variable: count C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Home\d848c60f4d35252d4c5429cafde360c5.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2020-05-16T20:36:25+08:00 ] ::1 /Card-system/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2020-05-16T20:36:28+08:00 ] ::1 /Card-system/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+

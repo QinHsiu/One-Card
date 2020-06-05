@@ -1,0 +1,2019 @@
+[ 2020-05-18T19:39:34+08:00 ] ::1 /Card-system/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2020-05-18T19:39:34+08:00 ] ::1 /Card-system/Admin/Public/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2020-05-18T19:39:58+08:00 ] ::1 /Card-system/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `oc_admin` WHERE `username` = 'Qin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2020-05-18T19:40:00+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2020-05-18T19:40:55+08:00 ] ::1 /Card-system/Admin/View/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2020-05-18T19:41:00+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `oc_notice` [ RunTime:0.0432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_notice` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_notice` LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `oc_view` [ RunTime:0.0333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_view` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_view` LIMIT 0,30   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2020-05-18T19:41:26+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2020-05-18T19:42:04+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2020-05-18T19:44:14+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2020-05-18T19:44:36+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2020-05-18T19:45:05+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2020-05-18T19:45:33+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2020-05-18T19:45:45+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0622s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2020-05-18T20:19:15+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0483s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2020-05-18T20:20:42+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0428s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2020-05-18T20:20:47+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0344s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `oc_student` SET `credit`='0' WHERE `username` = '' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-05-18T20:20:48+08:00 ] ::1 /Card-system/Admin/Borrow/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: 非法操作:service
+
+[ 2020-05-18T20:21:29+08:00 ] ::1 /Card-system/Admin/Borrow/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:service
+
+[ 2020-05-18T20:21:34+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0384s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `oc_student` SET `credit`='0' WHERE `username` = '' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2020-05-18T20:21:38+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-05-18T20:21:43+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2020-05-18T20:25:36+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2020-05-18T20:25:41+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0517s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `oc_student` SET `credit`='0' WHERE `username` = '' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2020-05-18T20:25:45+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2020-05-18T20:29:36+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2020-05-18T20:29:41+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0371s ]
+NOTIC: [8] Undefined index: validate C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `oc_student` SET `credit`='0' WHERE `username` = '' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2020-05-18T20:29:44+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2020-05-18T20:29:46+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2020-05-18T20:35:27+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0489s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2020-05-18T20:35:31+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+
+[ 2020-05-18T20:36:21+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2020-05-18T20:36:25+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+
+[ 2020-05-18T20:37:38+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0528s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2020-05-18T20:37:42+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+
+[ 2020-05-18T20:37:58+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2020-05-18T20:38:01+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+
+[ 2020-05-18T20:38:43+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0423s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2020-05-18T20:40:16+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2020-05-18T20:40:20+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+
+[ 2020-05-18T20:40:38+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2020-05-18T20:40:42+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+
+[ 2020-05-18T20:41:29+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2020-05-18T20:41:34+08:00 ] ::1 /Card-system/Admin/Borrow/add/usernameQinHsiu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+
+[ 2020-05-18T20:43:59+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2020-05-18T20:44:03+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+
+[ 2020-05-18T20:44:23+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2020-05-18T20:44:27+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+
+[ 2020-05-18T20:44:52+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2020-05-18T20:44:56+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+
+[ 2020-05-18T20:45:12+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2020-05-18T20:45:17+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+
+[ 2020-05-18T20:46:28+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2020-05-18T20:46:31+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id2017015566
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+
+[ 2020-05-18T20:51:37+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2020-05-18T20:51:42+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+
+[ 2020-05-18T20:52:13+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2020-05-18T20:52:18+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+
+[ 2020-05-18T20:52:59+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2020-05-18T20:53:03+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = -1583025073 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+
+[ 2020-05-18T20:53:30+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2020-05-18T20:53:34+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2020-05-18T20:54:39+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2020-05-18T20:54:43+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0511s ]
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 746 行.
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Db\Driver.class.php 第 480 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM  
+
+[ 2020-05-18T20:55:06+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0162s ]
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 746 行.
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Cannot use a scalar value as an array C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\phpStudy\WWW\Card-system\ThinkPHP\Library\Think\Db\Driver.class.php 第 480 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM  
+
+[ 2020-05-18T20:55:11+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2020-05-18T20:55:15+08:00 ] ::1 /Card-system/Admin/Borrow/add/card_id20170516040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `oc_student` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `oc_student` WHERE `id` = -1583025073 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+
+[ 2020-05-18T20:56:01+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2020-05-18T20:57:40+08:00 ] ::1 /Card-system/Admin/Borrow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `oc_borrow` [ RunTime:0.0411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `oc_borrow` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `oc_borrow` LIMIT 0,30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: username C:\phpStudy\WWW\Card-system\Application\Admin\Controller\BorrowController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b12c43659ca5e2ca6294b1e854c9b1a5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2020-05-18T20:57:42+08:00 ] ::1 /Card-system/Admin/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2020-05-18T20:57:48+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2020-05-18T20:57:53+08:00 ] ::1 /Card-system/Admin/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-05-18T20:59:06+08:00 ] ::1 /Card-system/Admin/Back/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\995d620f17dd9a59643348e2a4351c58.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2020-05-18T20:59:08+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2020-05-18T21:01:43+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2020-05-18T21:01:47+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2020-05-18T21:01:48+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2020-05-18T21:02:24+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2020-05-18T21:02:26+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2020-05-18T21:02:33+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2020-05-18T21:02:33+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2020-05-18T21:02:34+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2020-05-18T21:02:34+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2020-05-18T21:02:43+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2020-05-18T21:02:44+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2020-05-18T21:02:44+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2020-05-18T21:02:46+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2020-05-18T21:02:46+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2020-05-18T21:05:00+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2020-05-18T21:05:03+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2020-05-18T21:05:03+08:00 ] ::1 /Card-system/Admin/User/addS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\53d2636ec823d4b4b02396944cacec96.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+

@@ -1,0 +1,306 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>新闻动态</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Card-system/Public/Home/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/Card-system/Public/Home/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/Card-system/Public/Home/css/Style.css"/>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-default" role="navigation" style="background: white;height: 80px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="container">
+                    <div class="raw">
+                        <div class="col-md-4">
+                            <img class="logo" src="/Card-system/Public/Home/images/one_card2.jpg">
+                            <font class="word" color="#46b8da">校园一卡通</font>
+                            <button type="button" style="margin-top:20px; " class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button></div>
+                        <div class="col-md-8">
+                            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;">
+                                    <li class="ti"><a href="<?php echo U('Index/index');?>">首页</a></li><!--li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li-->
+                                    <li class="ti"><a href="<?php echo U('Index/news');?>">新闻动态</a></li>
+                                    <li class="ti"><a href="<?php echo U('Index/service');?>">服务中心</a></li>
+                                    <li class="ti"><a href="<?php echo U('Index/recruit');?>">招贤纳士</a></li>
+                                    <li class="ti"><a href="<?php echo U('Index/aboutUs');?>">关于我们</a></li>
+                                    <li class="ti"><a href="<?php echo U('Home/Public/login');?>">学生登录</a></li>
+                                    <li class="ti"><a href="<?php echo U('Admin/Public/login');?>">管理员登录</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="1">
+    <div style="position: relative;">
+        <hr style="margin: 80px 0 0 0; height: 1px; width: auto;background: #46b8da;"/>
+        <i class="i1" style="position: absolute; margin-left:0;margin-top:87px; "></i>
+        <p style="font-size: 20px; text-align: center; position: absolute; color: white; margin-left: 1.8%; margin-top: 80px;">新闻动态</p>
+        <p style="position: absolute; font-size: 20px;margin-left: 1.8%;margin-top: 100px; color: white;">News</p>
+        <p style="font-size: 15px;font-weight: 100; position: absolute; color:white;margin-left:75%; margin-top: 75px;">开发语言</p>
+        <p style="font-size: 15px; position: absolute; color: white;margin-left:75%; margin-top: 125px;">一卡通新闻</p>
+        <img id="img1" class="image" style="height: 200px;" src="/Card-system/Public/Home/images/oc_bg4.png" alt="1"/>
+    </div>
+</section>
+
+<section id="2">
+    <hr style="margin:0 0 0 0; height: 1px; width: 100%;background: #46b8da;"/>
+    <div class="container" style="margin-top:30px;">
+    <div class="raw">
+        <div class="col-md-3 col-xs-3">
+            <img id="i2" src="/Card-system/Public/Home/images/news.png" class="new-img"/>
+            <span id="s1" style="color: #46b8da; font-size: 20px; margin-left:20%; ">关于调整收费标准</span>
+            <p id="ps" style="font-size: 15px; color: #46b8da; line-height: 25px;">
+                收费标准由原来的m￥上调至n￥<br/>
+                通知发布者：一卡通管理部门<br/>
+                时间2020年4月1日<br/>
+            </p>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <img id="i3" src="/Card-system/Public/Home/images/news1.png" class="new-img"/>
+            <span id="s2" style="color: #46b8da; font-size: 20px; margin-left:20%; display: none;">关于调整收费标准</span>
+            <p id="ps1" style="font-size: 15px; color: #46b8da; line-height: 25px; display: none;">
+                收费标准由原来的m￥上调至n￥<br/>
+                通知发布者：一卡通管理部门<br/>
+                时间2020年4月1日<br/>
+            </p>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <img id="i4" src="/Card-system/Public/Home/images/news2.png" class="new-img"/>
+            <span id="s3" style="color: #46b8da; font-size: 20px; margin-left:20%; ">关于调整收费标准</span>
+            <p id="ps2" style="font-size: 15px; color: #46b8da; line-height: 25px;">
+                收费标准由原来的m￥上调至n￥<br/>
+                通知发布者：一卡通管理部门<br/>
+                时间2020年4月1日<br/>
+            </p>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <div class="container">
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white; "
+                   href="#" role="button" id="d1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PHP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="d1" style="line-height: 15px;">
+                    <p class="dropdown-item" style="color: #46b8da;">
+                        PHP即“超文本预处理器”，是一种通用开源脚本语言。<br/>
+                        PHP是在服务器端执行的脚本语言。
+                    <!--a class="dropdown-item" href="#">JavaScript</a-->
+                </div>
+                </div>
+                <br/>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Python
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d2" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            Python是一种跨平台的计算机程序设计语言。<br/>
+                            它是一个高层次的面向对象的脚本语言。
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        JavaScript
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            JavaScript是一种属于网络的脚本语言。<br/>
+                            它常用来为网页添加各式各样的动态功能。
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <!--div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        HTML
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            HTML的英文全称是 Hyper Text Marked Language。<br/>
+                            HTML称为超文本标记语言，是一种标识性的语言。
+                        </p>
+                    </div>
+                </div>
+                <br/-->
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Java
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            Java是一门面向对象编程语言。<br/>
+                            Java语言具有功能强大和简单易用两个特征
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        C++
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            C++是C语言的继承。<br/>
+                            C++擅长面向对象程序设计。
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CSS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            CSS能静态地修饰网页。<br/>
+                            它可以对网页各元素进行格式化。
+                        </p>
+                    </div>
+                </div>
+
+                <br/>
+                <!--div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        C#
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            C#是面向对象的编程语言。<br/>
+                            C#是微软公司研究员Anders Hejlsberg的最新成果。
+                        </p>
+                    </div>
+                </div>
+                <br/-->
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" style="color:#46b8da; width: 30%; background-color: white;"
+                       href="#" role="button" id="d3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        C
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="d3" style="line-height: 15px;">
+                        <p class="dropdown-item" style="color: #46b8da;">
+                            C语言可以编写系统软件。<br/>
+                            C语言是一门面向过程的、抽象化的通用程序设计语言。
+                        </p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="container" style="margin-top: 10px;">
+    <div class="raw">
+        <div class="col-md-3 col-xs-3" style="position: relative;">
+            <p id="p1" style="position: absolute; margin-left: 10%; margin-top: 20%; color: green; display: none; font-size: 20px;">Hello</p>
+            <img id="p3" src="/Card-system/Public/Home/images/intro/1.jpg" style="width: 100%; height: 200px;"/>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <p id="p2" style="position: absolute; margin-left: 10%; margin-top: 20%; color: green; display: none; font-size: 20px;" >Welcome</p>
+            <img id="p4" src="/Card-system/Public/Home/images/intro/2.jpg" style="width: 100%; height: 200px;"/>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <img id="p5" src="/Card-system/Public/Home/images/intro/3.jpg" style="width: 100%; height: 200px;"/>
+        </div>
+        <div class="col-md-3 col-xs-3">
+            <img id="p6" src="/Card-system/Public/Home/images/intro/4.jpg" style="width: 100%; height: 200px;"/>
+        </div>
+    </div>
+    </div>
+    <div class="container" style="margin-top: 10px;">>
+        <div class="raw">
+            <div class="col-md-3 col-xs-3">
+                <img id="p7" src="/Card-system/Public/Home/images/intro/5.jpg" style="width: 100%; height: 200px;"/>
+            </div>
+            <div class="col-md-3 col-xs-3">
+                <img id="p8" src="/Card-system/Public/Home/images/intro/6.jpg" style="width: 100%; height: 200px;"/>
+            </div>
+            <div class="col-md-3 col-xs-3">
+                <img id="p9" src="/Card-system/Public/Home/images/intro/7.jpg" style="width: 100%; height: 200px;"/>
+            </div>
+            <div class="col-md-3 col-xs-3">
+                <img id="p10" src="/Card-system/Public/Home/images/intro/9.jpg" style="width: 100%; height: 200px;"/>
+            </div>
+        </div>
+</div>
+</section>
+<br/><br/>
+<section id="3">
+</section>
+<footer class="footer">
+    <hr style="margin: 0 0 0 0; height: 1px; width: auto;background: #46b8da;"/>
+    <div class="container">
+        <div class="raw">
+            <br/><br/>
+            <div class="col-md-5 col-xs-5" style="height: auto;">
+                <div><font style="font-size:20px; color: white;">Content Us</font></div>
+                <p></p>
+                <p>地址:重庆市沙坪坝区大学城</p>
+                <p>电话:123456789</p>
+                <p>传真:(123)456-789</p>
+                <p>邮箱:QinHsiu@qq.com</p>
+            </div>
+            <div class="col-md-2 col-xs-2"></div>
+            <div class="col-md-5 col-xs-5">
+                <div ><font style="font-size:20px; color: white;">Other Links</font></div>
+                <p></p>
+                <p><a href="<?php echo U('Index/news');?>">新闻动态</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="<?php echo U('Index/service');?>">服务中心</a></p>
+                <p><a href="<?php echo U('Index/recruit');?>">招贤纳士</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="<?php echo U('Index/aboutUs');?>">关于我们</a> </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var obj=document.getElementById("p1");
+    var obj1=document.getElementById("p2");
+
+    var obj7=document.getElementById("s2");
+    var obj8=document.getElementById("ps1");
+    var obj10=document.getElementById("p6");
+    $('#p3').hover(function () {
+        //alert("He");
+        obj.style.display="block";
+        obj1.style.display="block";
+        obj10.style.display="block";
+    },function () {
+        obj.style.display="none";
+        obj1.style.display="none";
+        obj10.style.display="none";
+    });
+
+    $('#i3').hover(function () {
+        //alert("He");
+        obj7.style.display="block";
+        obj8.style.display="block";
+    },function () {
+        obj7.style.display="none";
+        obj8.style.display="none";
+    });
+</script>
+</html>

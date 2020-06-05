@@ -1,0 +1,1541 @@
+[ 2020-05-16T20:36:30+08:00 ] ::1 /Card-system/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-05-16T20:36:30+08:00 ] ::1 /Card-system/Admin/Public/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2020-05-16T20:36:51+08:00 ] ::1 /Card-system/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `oc_admin` WHERE `username` = 'Root' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2020-05-16T20:36:52+08:00 ] ::1 /Card-system/Admin/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2020-05-16T20:37:28+08:00 ] ::1 /Card-system/Admin/View/service1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 76 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 77 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 78 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 79 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 80 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 81 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 82 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 83 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 84 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 86 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\333197593e43ad0a56bb3343b285675d.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2020-05-16T20:37:55+08:00 ] ::1 /Card-system/Admin/User/addA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-05-16T20:44:46+08:00 ] ::1 /Card-system/Admin/View/service1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 非法操作:service1
+
+[ 2020-05-16T20:45:05+08:00 ] ::1 /Card-system/Admin/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2020-05-16T20:46:13+08:00 ] ::1 /Card-system/Admin/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index1.html
+
+[ 2020-05-16T20:46:22+08:00 ] ::1 /Card-system/Admin/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index1.html
+
+[ 2020-05-16T20:46:53+08:00 ] ::1 /Card-system/Admin/Public/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2020-05-16T20:46:56+08:00 ] ::1 /Card-system/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2020-05-16T20:46:56+08:00 ] ::1 /Card-system/Admin/Public/captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2020-05-16T20:47:10+08:00 ] ::1 /Card-system/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `oc_admin` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `oc_admin` WHERE `username` = 'Root' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2020-05-16T20:47:13+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2020-05-16T20:48:00+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2020-05-16T20:48:30+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2020-05-16T20:48:33+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2020-05-16T20:48:45+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2020-05-16T20:48:47+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 76 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 77 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 78 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 79 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 80 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 81 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 82 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 83 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 84 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 86 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2020-05-16T20:49:58+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2020-05-16T20:50:16+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2020-05-16T20:51:26+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2020-05-16T20:52:06+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2020-05-16T20:52:09+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2020-05-16T20:52:11+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2020-05-16T20:55:51+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2020-05-16T20:55:53+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2020-05-16T20:55:57+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2020-05-16T20:57:00+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2020-05-16T20:57:06+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2020-05-16T20:57:08+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2020-05-16T20:58:11+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2020-05-16T20:58:13+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2020-05-16T20:58:16+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-05-16T20:58:19+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2020-05-16T21:01:12+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2020-05-16T21:01:13+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2020-05-16T21:01:14+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-05-16T21:01:15+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2020-05-16T21:01:17+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2020-05-16T21:01:18+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2020-05-16T21:03:28+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 30 行.
+NOTIC: [8] Undefined variable: role_id C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2020-05-16T21:03:30+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2020-05-16T21:03:31+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2020-05-16T21:03:32+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2020-05-16T21:03:34+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2020-05-16T21:03:36+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2020-05-16T21:04:11+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2020-05-16T21:04:12+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2020-05-16T21:04:12+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2020-05-16T21:04:14+08:00 ] ::1 /Card-system/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2020-05-16T21:04:16+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2020-05-16T21:04:59+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2020-05-16T21:05:00+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2020-05-16T21:05:01+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2020-05-16T21:05:39+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2020-05-16T21:05:42+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 87 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2020-05-16T21:05:43+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 87 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 88 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 89 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2020-05-16T21:06:23+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 90 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 91 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 92 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 93 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 94 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 95 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 96 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 97 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 98 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2020-05-16T21:06:53+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 102 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 105 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 106 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 107 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 109 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2020-05-16T21:07:31+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 102 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 105 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 106 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 107 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 109 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2020-05-16T21:07:32+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 102 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 105 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 106 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 107 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 109 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2020-05-16T21:07:42+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 102 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 105 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 106 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 107 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 109 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2020-05-16T21:07:44+08:00 ] ::1 /Card-system/Admin/View/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 99 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 100 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 101 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 102 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 103 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 104 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 105 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 106 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 107 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 109 行.
+NOTIC: [8] Undefined variable: vol C:\phpStudy\WWW\Card-system\Application\Runtime\Cache\Admin\a848eb88c5081da9c65f9ea9dfd05c69.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
