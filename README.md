@@ -3,6 +3,9 @@
 ## 主要语言：PHP
 ## 这个网站是一个校园生活管理系统
 ## 主要功能包括：登录、注册、评论、添加、查看等功能
+## 功能主要包含以下部分：
+![avatar](others/一卡通管理系统.png)
+
 
 ## 运行方式：
 ### 1.下载该文件，安装phpstudy、phpstorm，环境安装链接：[环境安装](https://blog.csdn.net/qxyloveyy/article/details/104226399)
